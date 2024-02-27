@@ -1,0 +1,176 @@
+
+/* Common styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    height: auto;
+    width: 100vw;
+    background-color: #10daff;
+    color: #333333;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #p1 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  #p2 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  #p3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  main {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer {
+    display: flex;
+    width: 100%;
+    margin-top: 35px;
+  }
+  
+  #pf1 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  #span {
+    font-weight: bold;
+  }
+  
+  #pf2 {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 3px;
+  }
+  
+  #pf3 {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  
+  .anchor-tag {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .anchor-tag a {
+    text-decoration: none;
+  }
+  
+  /* Media queries for mobile screens */
+  @media (max-width: 767px) {
+    #p1 {
+      font-size: 18px;
+      font-weight: 500;
+    }
+  
+    #p2 {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  
+    #p3 {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  
+    #pf1 {
+      font-size: 16px;
+      font-weight: 400;
+    }
+  
+    #pf2 {
+      font-size: 10px;
+      margin-top: 2px;
+    }
+  
+    #pf3 {
+      font-size: 10px;
+      margin-top: 2px;
+    }
+
+    .view-pdf{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .view-pdf button{
+        margin-top: 2px;
+        padding: 5px;
+    }
+
+  }
+  
+  /* Media queries for tablet screens */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #p1 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  
+    #p2 {
+      font-size: 18px;
+      font-weight: 500;
+    }
+  
+    #p3 {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  
+    #pf1 {
+      font-size: 18px;
+      font-weight: 400;
+    }
+  
+    #pf2 {
+      font-size: 12px;
+      margin-top: 2px;
+    }
+  
+    #pf3 {
+      font-size: 12px;
+      margin-top: 2px;
+    }
+  }
+  
